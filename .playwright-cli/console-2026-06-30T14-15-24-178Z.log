@@ -1,0 +1,12 @@
+[     563ms] [ERROR] Access to script at 'https://unpkg.com/react-bootstrap@3.0.0-beta.5/dist/react-bootstrap.min.js' (redirected from 'https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js') from origin 'https://hub.testingtalks.com.au' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://hub.testingtalks.com.au/:0
+[     563ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://unpkg.com/react-bootstrap@3.0.0-beta.5/dist/react-bootstrap.min.js:0
+[     834ms] [LOG] [HMR] Waiting for update signal from WDS... @ https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:140128
+[     885ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+    at ul
+    at div
+    at https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:85670:5
+    at nav
+    at https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:88301:77
+    at Router (https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:123258:30)
+    at BrowserRouter (https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:122879:35)
+    at App (https://hub.testingtalks.com.au/static/js/main.chunk.js:5592:5) @ https://hub.testingtalks.com.au/static/js/vendors~main.chunk.js:119874

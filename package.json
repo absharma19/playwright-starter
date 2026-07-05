@@ -1,0 +1,23 @@
+{
+  "name": "playwright-starter",
+  "version": "1.0.0",
+  "description": "Playwright automation skeleton — codegen-first, page-object-model, CI-ready",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen",
+    "report": "playwright show-report",
+    "trace": "playwright show-trace",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

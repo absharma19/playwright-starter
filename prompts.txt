@@ -1,0 +1,10 @@
+Check playwright-cli --help for available commands. I will be giving a webpage to use this skll in next prompt
+
+Use /playwright-cli skill to create contact in https://hub.testingtalks.com.au/ in headed mode like --headed.
+
+Look at my project's test structure. Understand the framework, config, page objects, helpers, and naming conventions. Summarize what you find.
+
+Based on what you saw on https://hub.testingtalks.com.au/ using playwright-cli, generate Playwright Test specs that match my project's structure and conventions. Create page objects where needed.
+
+Run the tests you just created. If any fail, fix them.
+

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+
+# Playwright artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Environment — never commit secrets
+.env
+
+# OS
+.DS_Store

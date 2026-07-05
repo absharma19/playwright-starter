@@ -1,0 +1,33 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+      - list [ref=e7]:
+        - link "PLAYGROUND" [ref=e9] [cursor=pointer]:
+          - /url: /playground
+  - generic [ref=e467]:
+    - heading "Create Contact" [level=1] [ref=e468]
+    - generic [ref=e469]:
+      - generic [ref=e470]:
+        - generic [ref=e471]: Name
+        - textbox [ref=e472]
+      - generic [ref=e473]:
+        - generic [ref=e474]: Gender
+        - combobox [ref=e475]:
+          - option "Male" [selected]
+          - option "Female"
+          - option "Other"
+      - generic [ref=e476]:
+        - generic [ref=e477]: Phone
+        - textbox [ref=e478]
+      - generic [ref=e479]:
+        - generic [ref=e480]: Street
+        - textbox [ref=e481]
+      - generic [ref=e482]:
+        - generic [ref=e483]: City
+        - textbox [ref=e484]: 123 Playwright Way
+      - generic [ref=e488]: "Error: The \"name\" field can't be empty."
+      - generic [ref=e485]:
+        - button "Save" [active] [ref=e486] [cursor=pointer]
+        - button "Cancel" [ref=e487] [cursor=pointer]
