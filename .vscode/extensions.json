@@ -1,0 +1,8 @@
+{
+  // VSCode prompts to install these when the repo is opened. Ensures the office
+  // Windows machine gets the Gherkin navigation support automatically.
+  "recommendations": [
+    "alexkrechik.cucumberautocomplete",
+    "ms-playwright.playwright"
+  ]
+}

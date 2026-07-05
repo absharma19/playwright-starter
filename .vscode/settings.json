@@ -1,0 +1,15 @@
+{
+  // Enables Ctrl+Click / F12 "Go to Definition" from Gherkin steps to their TS step definitions.
+  // Requires the "Cucumber (Gherkin) Full Support" extension (alexkrechik.cucumberautocomplete).
+  "cucumberautocomplete.steps": [
+    "src/steps/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "src/features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.customParameters": [],
+  "files.associations": {
+    "*.feature": "feature"
+  }
+}

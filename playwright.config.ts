@@ -30,6 +30,7 @@ export default defineConfig({
   reporter: [['list'], cucumberReporter('html', { outputFile: 'cucumber-report/index.html' }), ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   use: {
     baseURL: config.AppSettings.baseUrl,
+    ignoreHTTPSErrors: true, // Bypass corporate TLS-inspection cert (e.g. Zscaler) that bundled Chromium doesn't trust
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
   },
