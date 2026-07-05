@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "dist",
     "rootDir": ".",
-    "baseUrl": ".",
     "paths": {
-      "@fixtures": ["src/fixtures/index.ts"],
-      "@pages/*": ["src/pages/*"],
-      "@utils/*": ["src/utils/*"],
-      "@config": ["config/config.ts"]
+      "@fixtures": ["./src/fixtures/index.ts"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@config": ["./config/config.ts"]
     }
   },
   "include": ["src/**/*.ts", "config/**/*.ts", "playwright.config.ts"],

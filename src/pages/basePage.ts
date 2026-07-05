@@ -20,8 +20,13 @@ export class BasePage {
     await this.page.goto(`${config.AppSettings.baseUrl}${path}`);
   }
 
-  /** Waits for the network to be idle — useful after form submissions. */
-  async waitForLoad(): Promise<void> {
-    await this.page.waitForLoadState('networkidle');
+  /**
+   * Opt-in wait for legacy multi-page apps. Prefer web-first assertions
+   * (e.g. `await expect(locator).toBeVisible()`) which auto-wait — they are more
+   * reliable than `networkidle`, which is flaky on modern SPAs and discouraged by
+   * the Playwright team. Defaults to the DOM 'load' event, not 'networkidle'.
+   */
+  async waitForLoad(state: 'load' | 'domcontentloaded' | 'networkidle' = 'load'): Promise<void> {
+    await this.page.waitForLoadState(state);
   }
 }
