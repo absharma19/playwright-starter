@@ -26,8 +26,8 @@ export class ContactsPage extends BasePage {
     await this.waitForLoad();
   }
 
-  getContactCardByName(contactName: string) {
-    return this.page.locator(`text=${contactName}`);
+  getContactCardByName(contactName: string): Locator {
+    return this.page.getByText(contactName, { exact: true });
   }
 
   async contactExists(contactName: string): Promise<boolean> {

@@ -8,6 +8,10 @@ dist/
 /playwright/.cache/
 /playwright/.auth/
 
+# playwright-bdd generated tests & Cucumber report
+/.features-gen/
+/cucumber-report/
+
 # Environment — never commit secrets
 .env
 
